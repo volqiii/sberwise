@@ -85,7 +85,7 @@
     body.startup-pending #splashScreen { position: absolute; inset: 0; z-index: 80; display: flex; min-height: 100dvh; align-items: center; justify-content: center; overflow: hidden; padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 20px); background: radial-gradient(circle at 50% 42%, #0b4b44 0%, #03171b 42%, #020d14 100%); color: #fff; font-family: Arial, sans-serif; }
     body.startup-pending #splashScreen .splash-content { display: flex; flex-direction: column; align-items: center; width: 100%; text-align: center; }
     body.startup-pending #splashScreen .splash-logo { display: flex; width: 120px; height: 120px; align-items: center; justify-content: center; border: 2px solid #00e5a0; border-radius: 32px; background: #083532; color: #00e5a0; }
-    body.startup-pending #splashScreen .splash-logo svg { width: 64px; height: 64px; }
+    body.startup-pending #splashScreen .splash-logo svg { width: 64px; height: 64px; }\n    body.startup-pending #splashScreen .splash-logo img { width: 78px; height: 78px; border-radius: 22px; }
     body.startup-pending #splashScreen .splash-brand { margin: 24px 0 0; color: #fff; font-size: 48px; font-weight: 800; line-height: 1; }
     body.startup-pending #splashScreen .splash-brand em { color: #00e5a0; font-style: normal; }
     body.startup-pending #splashScreen .splash-subtitle { margin: 14px 0 0; color: #a7c7d8; font-size: 17px; }
@@ -106,7 +106,7 @@
         <div class="splash-orbit splash-orbit-left" aria-hidden="true"></div>
         <div class="splash-orbit splash-orbit-right" aria-hidden="true"></div>
         <div class="splash-content">
-          <div class="splash-logo"><i data-lucide="sparkles"></i></div>
+          <div class="splash-logo"><img src="assets/sberwise-mark.svg" alt="SberWise"></div>
           <h1 class="splash-brand"><span>Sber</span><em>Wise</em></h1>
           <p class="splash-subtitle">ваш умный помощник по бюджету</p>
           <div class="splash-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
