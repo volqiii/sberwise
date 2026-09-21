@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/volqiii/volqiii/main/assets/sberwise-project-mark.svg" alt="SberWise" width="100%">
+</p>
+
 # SberWise
 
 Telegram-бот и Mini App для совместного бюджета: учитывайте расходы, делите чеки между участниками, следите за долгами и анализируйте траты в одной комнате.
